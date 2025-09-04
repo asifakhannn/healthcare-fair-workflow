@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+ENV/
+.venv/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Mac system files
+.DS_Store
+
+# Data files that are too large (optional, keep dataset in Zenodo)
+*.zip
+*.tar
+*.gz
+*.h5
+*.parquet

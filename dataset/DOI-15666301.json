@@ -1,0 +1,250 @@
+{
+  "access": {
+    "embargo": {
+      "active": false,
+      "reason": null
+    },
+    "files": "public",
+    "record": "public",
+    "status": "open"
+  },
+  "created": "2025-06-15T06:41:51.362058+00:00",
+  "custom_fields": {
+    "meeting:meeting": {
+      "title": "International Conference on Sustainable Collaboration in Business, Technology, Information and innovation"
+    }
+  },
+  "deletion_status": {
+    "is_deleted": false,
+    "status": "P"
+  },
+  "files": {
+    "count": 2,
+    "default_preview": "Thesis Methodology Data_Sefiya.csv",
+    "enabled": true,
+    "entries": {
+      "43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:2beb179fb183844b73faf2d68e4488ca",
+        "ext": "jpg",
+        "id": "917f33ea-356d-48d3-8dd1-0314f481d636",
+        "key": "43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg",
+        "links": {
+          "content": "https://zenodo.org/api/records/15666301/files/43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/content",
+          "iiif_api": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/full/full/0/default.png",
+          "iiif_base": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg",
+          "iiif_canvas": "https://zenodo.org/api/iiif/record:15666301/canvas/43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg",
+          "iiif_info": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/info.json",
+          "self": "https://zenodo.org/api/records/15666301/files/43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg"
+        },
+        "metadata": {
+          "height": 534,
+          "width": 798
+        },
+        "mimetype": "image/jpeg",
+        "size": 98293,
+        "storage_class": "L"
+      },
+      "Thesis Methodology Data_Sefiya.csv": {
+        "access": {
+          "hidden": false
+        },
+        "checksum": "md5:86a641a5db1466f22a3037da8f8e1027",
+        "ext": "csv",
+        "id": "a9223d52-2169-4d4c-be5a-3e74f30340da",
+        "key": "Thesis Methodology Data_Sefiya.csv",
+        "links": {
+          "content": "https://zenodo.org/api/records/15666301/files/Thesis%20Methodology%20Data_Sefiya.csv/content",
+          "self": "https://zenodo.org/api/records/15666301/files/Thesis%20Methodology%20Data_Sefiya.csv"
+        },
+        "metadata": {},
+        "mimetype": "text/csv",
+        "size": 8489,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 106782
+  },
+  "id": "15666301",
+  "is_draft": false,
+  "is_published": true,
+  "links": {
+    "access": "https://zenodo.org/api/records/15666301/access",
+    "access_grants": "https://zenodo.org/api/records/15666301/access/grants",
+    "access_links": "https://zenodo.org/api/records/15666301/access/links",
+    "access_request": "https://zenodo.org/api/records/15666301/access/request",
+    "access_users": "https://zenodo.org/api/records/15666301/access/users",
+    "archive": "https://zenodo.org/api/records/15666301/files-archive",
+    "archive_media": "https://zenodo.org/api/records/15666301/media-files-archive",
+    "communities": "https://zenodo.org/api/records/15666301/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/15666301/communities-suggestions",
+    "doi": "https://doi.org/10.5281/zenodo.15666301",
+    "draft": "https://zenodo.org/api/records/15666301/draft",
+    "files": "https://zenodo.org/api/records/15666301/files",
+    "latest": "https://zenodo.org/api/records/15666301/versions/latest",
+    "latest_html": "https://zenodo.org/records/15666301/latest",
+    "media_files": "https://zenodo.org/api/records/15666301/media-files",
+    "parent": "https://zenodo.org/api/records/15666300",
+    "parent_doi": "https://doi.org/10.5281/zenodo.15666300",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15666300",
+    "parent_html": "https://zenodo.org/records/15666300",
+    "preview_html": "https://zenodo.org/records/15666301?preview=1",
+    "requests": "https://zenodo.org/api/records/15666301/requests",
+    "reserve_doi": "https://zenodo.org/api/records/15666301/draft/pids/doi",
+    "self": "https://zenodo.org/api/records/15666301",
+    "self_doi": "https://doi.org/10.5281/zenodo.15666301",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.15666301",
+    "self_html": "https://zenodo.org/records/15666301",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:15666301/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:15666301/sequence/default",
+    "thumbnails": {
+      "10": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/full/%5E10,/0/default.jpg",
+      "100": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/full/%5E100,/0/default.jpg",
+      "1200": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/full/%5E1200,/0/default.jpg",
+      "250": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/full/%5E250,/0/default.jpg",
+      "50": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/full/%5E50,/0/default.jpg",
+      "750": "https://zenodo.org/api/iiif/record:15666301:43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg/full/%5E750,/0/default.jpg"
+    },
+    "versions": "https://zenodo.org/api/records/15666301/versions"
+  },
+  "media_files": {
+    "count": 1,
+    "enabled": true,
+    "entries": {
+      "43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg.ptif": {
+        "access": {
+          "hidden": true
+        },
+        "ext": "ptif",
+        "id": "7431b1ba-c179-4bb3-9d8b-af73a22c16e9",
+        "key": "43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg.ptif",
+        "links": {
+          "content": "https://zenodo.org/api/records/15666301/files/43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg.ptif/content",
+          "self": "https://zenodo.org/api/records/15666301/files/43437209-4900-4C3C-A7DF-135A12D29619_1_201_a.jpeg.ptif"
+        },
+        "metadata": null,
+        "mimetype": "application/octet-stream",
+        "processor": {
+          "source_file_id": "917f33ea-356d-48d3-8dd1-0314f481d636",
+          "status": "finished",
+          "type": "image-tiles"
+        },
+        "size": 0,
+        "storage_class": "L"
+      }
+    },
+    "order": [],
+    "total_bytes": 0
+  },
+  "metadata": {
+    "creators": [
+      {
+        "person_or_org": {
+          "family_name": "Mohammad",
+          "given_name": "Sefiya Serbeena",
+          "name": "Mohammad, Sefiya Serbeena",
+          "type": "personal"
+        }
+      }
+    ],
+    "dates": [
+      {
+        "date": "2025-06-15",
+        "type": {
+          "id": "submitted",
+          "title": {
+            "de": "Eingereicht",
+            "en": "Submitted"
+          }
+        }
+      }
+    ],
+    "description": "<p>To assess how TikTok content marketing shapes consumer behavior, the research combined item-level checks with straightforward descriptive statistics. Each survey question used a five-point Likert scale, allowing granular scoring, and item-total correlations verified that the scale was internally reliable. Descriptive measures-mean, median, mode, standard deviation, minimum, and maximum-summarised four key constructs: Content Marketing, Brand Awareness, Brand Engagement, and Purchase Intention. Findings revealed consistently high means (4.54-4.55) paired with tight standard deviations (0.12-0.18), showing respondents largely agreed and their views scarcely varied. Because Content Marketing and Brand Awareness produced the top score (4.55), TikTok clearly boosts both visibility and perceived worth for local fashion labels. Engagement and Purchase Intention were almost as high, signalling a strong emotional bond and a pronounced buying likelihood. Together, these results affirm that TikTok effectively drives awareness and intention among consumers in the local fashion scene.</p>",
+    "publication_date": "2025-06-15",
+    "publisher": "Zenodo",
+    "resource_type": {
+      "id": "dataset",
+      "title": {
+        "de": "Datensatz",
+        "en": "Dataset"
+      }
+    },
+    "rights": [
+      {
+        "description": {
+          "en": "The Creative Commons Attribution license allows re-distribution and re-use of a licensed work on the condition that the creator is appropriately credited."
+        },
+        "icon": "cc-by-icon",
+        "id": "cc-by-4.0",
+        "props": {
+          "scheme": "spdx",
+          "url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+        },
+        "title": {
+          "en": "Creative Commons Attribution 4.0 International"
+        }
+      }
+    ],
+    "title": "Impact of Tiktok Content Marketing on Brand Awareness, Engagement and Purchase Intention in Local Fashion"
+  },
+  "parent": {
+    "access": {
+      "owned_by": {
+        "user": "1343459"
+      },
+      "settings": {
+        "accept_conditions_text": null,
+        "allow_guest_requests": false,
+        "allow_user_requests": false,
+        "secret_link_expiration": 0
+      }
+    },
+    "communities": {},
+    "id": "15666300",
+    "pids": {
+      "doi": {
+        "client": "datacite",
+        "identifier": "10.5281/zenodo.15666300",
+        "provider": "datacite"
+      }
+    }
+  },
+  "pids": {
+    "doi": {
+      "client": "datacite",
+      "identifier": "10.5281/zenodo.15666301",
+      "provider": "datacite"
+    },
+    "oai": {
+      "identifier": "oai:zenodo.org:15666301",
+      "provider": "oai"
+    }
+  },
+  "revision_id": 4,
+  "stats": {
+    "all_versions": {
+      "data_volume": 1087034.0,
+      "downloads": 54,
+      "unique_downloads": 35,
+      "unique_views": 36,
+      "views": 43
+    },
+    "this_version": {
+      "data_volume": 1087034.0,
+      "downloads": 54,
+      "unique_downloads": 35,
+      "unique_views": 36,
+      "views": 43
+    }
+  },
+  "status": "published",
+  "swh": {},
+  "updated": "2025-06-15T06:41:51.647721+00:00",
+  "versions": {
+    "index": 1,
+    "is_latest": true
+  }
+}
