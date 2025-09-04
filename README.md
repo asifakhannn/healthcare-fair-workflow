@@ -19,8 +19,8 @@ tiktok-fair-workflow/
 
 ## 🔁 Reproduce this project
 
-### 1. Clone
 ```bash
+### 1. Clone
 git clone https://github.com/asifakhannn/tiktok-fair-workflow.git
 cd tiktok-fair-workflow
 
