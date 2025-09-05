@@ -1,12 +1,13 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
+*.pyc
 *$py.class
 
 # C extensions
 *.so
 
-# Distribution / packaging
+# Ignore local environments
 .Python
 env/
 venv/
@@ -14,9 +15,12 @@ ENV/
 .venv/
 *.egg-info/
 .eggs/
+*.egg-info/
+.envrc
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+pip-wheel-metadata/
 
 # VS Code settings
 .vscode/
@@ -30,3 +34,8 @@ ENV/
 *.gz
 *.h5
 *.parquet
+*.log
+
+
+# Ignore data outputs
+outputs/

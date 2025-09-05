@@ -1,14 +1,10 @@
-name: tiktok_fair_env
+name: healthcare-fair-workflow
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
-  - pandas=2.2.2
-  - matplotlib=3.8.4
-  - scikit-learn=1.4.2
-  - jupyterlab=4.2.3
-  - scipy=1.13.1
-  - pip
-  - pip:
-      - pyarrow==16.1.0   # optional: faster csv/parquet handling
-    
+  - python=3.11
+  - jupyterlab
+  - pandas=2.2.*
+  - numpy=1.26.*
+  - matplotlib=3.9.*
+  - seaborn=0.13.*
