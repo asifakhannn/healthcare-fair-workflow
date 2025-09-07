@@ -33,12 +33,7 @@ Healthcare-fair-workflow/
 ##  Environment Setup
 All dependencies are defined in [`environment.yml`](environment.yml).
 
-<<<<<<< HEAD
 # 1. Create environment
-=======
-
-## 1. Create environment
->>>>>>> 9bff919 (Update README, notebook, and workflow outputs)
 conda env create -f environment.yml
 conda activate healthcare_fair_env
 
@@ -47,11 +42,7 @@ git clone https://github.com/asifakhannn/healthcare-fair-workflow.git
 cd healthcare-fair-workflow
 
 ## 3. Add dataset
-<<<<<<< HEAD
 Download from Kaggle and save to dataset/
-=======
-Download from Kaggle and save to dataset
->>>>>>> 9bff919 (Update README, notebook, and workflow outputs)
 
 https://www.kaggle.com/datasets/prasad22/healthcare-dataset
 
