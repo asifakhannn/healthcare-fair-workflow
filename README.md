@@ -26,19 +26,13 @@ Healthcare-fair-workflow/
 ├─ README.md            # instructions
 └─ LICENSE              # open license
 
-
-- **Dataset Source:** [Kaggle Healthcare Dataset](https://www.kaggle.com/datasets/prasad22/healthcare-dataset)
-  
 - **Goal:** demonstrate a clean, reproducible workflow that follows the **FAIR principles** (Findable, Accessible, Interoperable, Reusable).
-
----
 
 ---
 
 ##  Environment Setup
 All dependencies are defined in [`environment.yml`](environment.yml).
 
-```bash
 # 1. Create environment
 conda env create -f environment.yml
 conda activate healthcare_fair_env
@@ -48,13 +42,11 @@ git clone https://github.com/asifakhannn/healthcare-fair-workflow.git
 cd healthcare-fair-workflow
 
 # 3. Add dataset
-# Download from Kaggle and save to dataset/
-# https://www.kaggle.com/datasets/prasad22/healthcare-dataset
+ Download from Kaggle and save to dataset/
+ https://www.kaggle.com/datasets/prasad22/healthcare-dataset
 
 # 4. Run Jupyter
 jupyter lab
-
-
 
 ---
 
@@ -74,27 +66,39 @@ This workflow is designed with the FAIR principles in mind:
 - **Interoperable**: The project uses widely accepted formats (CSV for data, PNG for outputs) and standardizes column names.
 - **Reusable**: The code is licensed and includes documentation for context and assumptions, making it easy to adapt for other datasets.
 
+⸻
+
+## Reproducibility & Versioning
+	•	SemVer: tag releases v1.0.0, v1.1.0, etc.
+	•	Environment pinning: exact versions in environment.yml.
+	•	Git: commit history keeps track of changes.
+
+## Version pinning rationale
+
+We pin exact versions to ensure byte-for-byte reproducibility of results. Packages were chosen as the latest stable releases that are mutually compatible with Python 3.11 (e.g., pandas 2.2.2, numpy 1.26.4, matplotlib 3.8.4, scikit-learn 1.4.2).We use the conda-forge channel for consistent builds across platforms.
+Pinning avoids “silent” breaks (API changes, new defaults, dependency swaps) that can make the same notebook produce different outputs in the future.
+
+---
 
 ## Risk Assessment
 - **Upstream Availability**: Datasets may change or become unavailable. To mitigate this, consider archiving the dataset or including it in the repository Available at: [https://www.kaggle.com/datasets/prasad22/healthcare-dataset]
 - **Package Changes**: Future updates to packages may introduce breaking changes. Version pinning in `environment.yml` helps manage this risk.
 - **Data Quality**: Inconsistent data can affect results. Basic cleaning and validation steps are included in the workflow to address this issue.
+- **Binary/OS differences**: Numerical libs can yield tiny numeric diffs. Use conda-forge builds and keep versions fixed; document OS/CPU in README.
+- **Include this quick version-check cell**: (top of the notebook) This proves the environment matches the pinned versions.
 
+import sys, pandas as pd, numpy as np, matplotlib
+import sklearn, scipy
+print({
+    "python": sys.version.split()[0],
+    "pandas": pd.__version__,
+    "numpy": np.__version__,
+    "matplotlib": matplotlib.__version__,
+    "scikit_learn": sklearn.__version__,
+    "scipy": scipy.__version__,
+})
 
-
-FAIR Mapping
-	•	Findable: dataset has a DOI, repo is public on GitHub.
-	•	Accessible: data downloadable, workflow open-source.
-	•	Interoperable: CSV/JSON format, standard Python libraries.
-	•	Reusable: clear environment, README, and license.
-
-
-Reproducibility & Versioning
-	•	SemVer: tag releases v1.0.0, v1.1.0, etc.
-	•	Environment pinning: exact versions in environment.yml.
-	•	Git: commit history keeps track of changes.
-
-
+---
 
 ##  Citation
 
