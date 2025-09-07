@@ -41,9 +41,10 @@ conda activate healthcare_fair_env
 git clone https://github.com/asifakhannn/healthcare-fair-workflow.git
 cd healthcare-fair-workflow
 
-# 3. Add dataset
- Download from Kaggle and save to dataset/
- https://www.kaggle.com/datasets/prasad22/healthcare-dataset
+## 3. Add dataset
+Download from Kaggle and save to dataset/
+
+https://www.kaggle.com/datasets/prasad22/healthcare-dataset
 
 # 4. Run Jupyter
 jupyter lab
