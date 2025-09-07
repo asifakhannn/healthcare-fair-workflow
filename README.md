@@ -33,7 +33,12 @@ Healthcare-fair-workflow/
 ##  Environment Setup
 All dependencies are defined in [`environment.yml`](environment.yml).
 
+<<<<<<< HEAD
 # 1. Create environment
+=======
+
+## 1. Create environment
+>>>>>>> 9bff919 (Update README, notebook, and workflow outputs)
 conda env create -f environment.yml
 conda activate healthcare_fair_env
 
@@ -42,7 +47,11 @@ git clone https://github.com/asifakhannn/healthcare-fair-workflow.git
 cd healthcare-fair-workflow
 
 ## 3. Add dataset
+<<<<<<< HEAD
 Download from Kaggle and save to dataset/
+=======
+Download from Kaggle and save to dataset
+>>>>>>> 9bff919 (Update README, notebook, and workflow outputs)
 
 https://www.kaggle.com/datasets/prasad22/healthcare-dataset
 
@@ -81,26 +90,6 @@ Pinning avoids “silent” breaks (API changes, new defaults, dependency swaps)
 
 ---
 
-## Risk Assessment
-- **Upstream Availability**: Datasets may change or become unavailable. To mitigate this, consider archiving the dataset or including it in the repository Available at: [https://www.kaggle.com/datasets/prasad22/healthcare-dataset]
-- **Package Changes**: Future updates to packages may introduce breaking changes. Version pinning in `environment.yml` helps manage this risk.
-- **Data Quality**: Inconsistent data can affect results. Basic cleaning and validation steps are included in the workflow to address this issue.
-- **Binary/OS differences**: Numerical libs can yield tiny numeric diffs. Use conda-forge builds and keep versions fixed; document OS/CPU in README.
-- **Include this quick version-check cell**: (top of the notebook) This proves the environment matches the pinned versions.
-
-import sys, pandas as pd, numpy as np, matplotlib
-import sklearn, scipy
-print({
-    "python": sys.version.split()[0],
-    "pandas": pd.__version__,
-    "numpy": np.__version__,
-    "matplotlib": matplotlib.__version__,
-    "scikit_learn": sklearn.__version__,
-    "scipy": scipy.__version__,
-})
-
----
-
 ##  Citation
 
 If you use this dataset, please cite as:
@@ -114,5 +103,29 @@ Note: This dataset does not provide a DOI. For improved Findability and citabili
 
 - **Dataset License:** Provided on Kaggle. Unless otherwise stated, Kaggle datasets are typically released under open licenses (often CC0/Public Domain). 
 - **Code in this Repository:** MIT License 
+
+---
+
+## Risk Assessment
+- **Upstream Availability**: Datasets may change or become unavailable. To mitigate this, consider archiving the dataset or including it in the repository Available at: [https://www.kaggle.com/datasets/prasad22/healthcare-dataset]
+- **Package Changes**: Future updates to packages may introduce breaking changes. Version pinning in `environment.yml` helps manage this risk.
+- **Data Quality**: Inconsistent data can affect results. Basic cleaning and validation steps are included in the workflow to address this issue.
+- **Binary/OS differences**: Numerical libs can yield tiny numeric diffs. Use conda-forge builds and keep versions fixed; document OS/CPU in README.
+- **Include this quick version-check cell**: (top of the notebook) This proves the environment matches the pinned versions.
+
+```bash
+
+import sys, pandas as pd, numpy as np, matplotlib
+import sklearn, scipy
+print({
+    "python": sys.version.split()[0],
+    "pandas": pd.__version__,
+    "numpy": np.__version__,
+    "matplotlib": matplotlib.__version__,
+    "scikit_learn": sklearn.__version__,
+    "scipy": scipy.__version__,
+})
+
+
 
 
